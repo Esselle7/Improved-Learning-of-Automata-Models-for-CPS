@@ -1,4 +1,34 @@
 # Improved Learning of Automata Models for Cyber-Physical Systems
+## Overview
+
+This repository contains the implementation of an enhanced approach for modeling Cyber-Physical Systems (CPS) by integrating the Sparse Identification of Nonlinear Dynamics (SINDy) method with the L*SHA algorithm. This integration enables dynamic behaviors to be modeled directly from observational data without relying on predefined Ordinary Differential Equations (ODEs).
+
+## Contribution
+
+This project builds upon the existing L*SHA framework. For details on the original L*SHA algorithm and its usage, please refer to the following repository:
+
+[L*SHA Repository](https://github.com/LesLivia/lsha/tree/develop_pysindy)
+
+### Key Features
+- Integration of SINDy for improved CPS modeling.
+- Ability to derive models directly from observational data.
+- Flexible approach suitable for both known and unknown systems.
+
+## Usage Instructions
+
+1. **Clone the Repository**
+
+   To get started, clone this repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+2. **Install requirements**
+  Ensure you have the necessary packages installed. You can do this using pip:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the L*SHA with pysindy**
+  Follow readme_pysindy instructions and run the algorithm
 
 ## Executive Summary
 
